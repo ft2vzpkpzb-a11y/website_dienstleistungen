@@ -85,6 +85,10 @@ und .htaccess entfernt.
 - Zugangsdatei `config.php`: liegt nur auf dem Server im Ordner `api`
 - Zuletzt hochgeladener Stand: noch nichts
 - Frühere Adressen, die weitergeleitet werden: keine (neue Website)
+- Vorschau für den Laptop des Auftraggebers: `python3 vorschau_zip.py` baut
+  `vorschau/website-vorschau.zip`. Entpacken, dann Doppelklick auf
+  „Website ansehen“. Nach Änderungen neu bauen und wieder schicken.
+  (Er hatte vermutet, es fehle eine JSON-Datei; die Website braucht keine.)
 
 ## Offene Punkte
 
