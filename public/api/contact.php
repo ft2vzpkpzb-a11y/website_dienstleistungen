@@ -31,13 +31,18 @@ const EMAIL_PATTERN = '/^[A-Za-z0-9!#$%&\'*+\/=?^_`{|}~-]+(?:\.[A-Za-z0-9!#$%&\'
 // andere wird verworfen. Ohne Auswahlfeld im Formular: Liste leer lassen.
 const ALLOWED_TOPICS = [
     'Allgemeine Anfrage',
-    'Terminanfrage',
+    'Analyse der Arbeitsabläufe',
+    'Automatisierung',
+    'KI-Assistenten',
+    'Kundenservice mit KI',
+    'Schulung und Workshop',
+    'Betreuung',
     'Sonstiges',
 ];
 // So heißt das Auswahlfeld in der E-Mail (z. B. „Rechtsgebiet“, „Thema“).
 const TOPIC_LABEL = 'Thema';
 // Betreff der E-Mail; die Auswahl wird mit Doppelpunkt angehängt.
-const MAIL_SUBJECT = 'Neue Kontaktanfrage von der Website';
+const MAIL_SUBJECT = 'Neue Anfrage über die Website';
 
 /* ---------- Ab hier nichts anpassen ---------- */
 

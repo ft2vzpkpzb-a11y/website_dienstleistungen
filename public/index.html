@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>[[NAME]] | [[KURZTITEL DER STARTSEITE]]</title>
-<meta name="description" content="[[BESCHREIBUNG FÜR SUCHMASCHINEN, ein bis zwei Sätze]]">
+<title>[[NAME]] | KI für kleine und mittlere Unternehmen</title>
+<meta name="description" content="Wir nehmen kleinen und mittleren Unternehmen lästige Routinearbeit ab: mit KI, Automatisierung und Schulungen. Verständlich, sicher und spürbar im Alltag.">
 <!-- GEMEINSAM:kopf -->
 <link rel="icon" href="data:,">
 <link rel="stylesheet" href="/assets/css/fonts.css">
-<link rel="stylesheet" href="/assets/css/style.css?v=2026-11-16">
+<link rel="stylesheet" href="/assets/css/style.css?v=2026-11-16-3">
 <!-- /GEMEINSAM:kopf -->
 </head>
 <body>
@@ -17,14 +17,17 @@
 <header class="site-header">
   <div class="container">
     <a href="/" class="brand">
-      <span class="brand-text">[[NAME]]<span>[[UNTERZEILE]]</span></span>
+      <span class="brand-text">[[NAME]]<span>KI und Automatisierung für KMU</span></span>
     </a>
     <nav class="main-nav" id="main-nav">
       <ul>
         <li><a href="/" class="is-active" aria-current="page">Startseite</a></li>
+        <li><a href="/leistungen">Leistungen</a></li>
+        <li><a href="/beispiele">Beispiele</a></li>
+        <li><a href="/ablauf">Ablauf</a></li>
         <li><a href="/kontakt">Kontakt</a></li>
       </ul>
-      <a href="/kontakt" class="btn btn--primary">Termin vereinbaren</a>
+      <a href="/kontakt" class="btn btn--primary">Anfrage senden</a>
     </nav>
     <button class="nav-toggle" id="nav-toggle" aria-label="Menü öffnen" aria-expanded="false"><span></span></button>
   </div>
@@ -35,13 +38,41 @@
 <main>
 
   <section class="hero">
-    <div class="container">
-      <div class="eyebrow">[[ÜBERZEILE]]</div>
-      <h1>[[HAUPTÜBERSCHRIFT]]</h1>
-      <p class="lede">[[EINLEITUNG, höchstens zwei Zeilen]]</p>
-      <div class="hero-actions">
-        <a href="/kontakt" class="btn btn--primary">Termin vereinbaren</a>
-        <a href="tel:[[TELEFON-LINK]]" class="btn btn--outline">[[TELEFON]]</a>
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <div class="eyebrow">KI für kleine und mittlere Unternehmen</div>
+        <h1>Weniger Routine. Mehr Zeit für das Wesentliche.</h1>
+        <p class="lede">Wir nehmen Ihrem Team lästige Routinearbeit ab, mit KI und Automatisierung, die zu Ihrem Betrieb passt.</p>
+        <div class="hero-actions">
+          <a href="/kontakt" class="btn btn--primary">Anfrage senden</a>
+          <a href="/leistungen" class="btn btn--outline">Leistungen ansehen</a>
+        </div>
+      </div>
+
+      <!-- Bild der Leistung: eine Liste von Aufgaben, die im Hintergrund erledigt werden.
+           Nur zur Veranschaulichung, deshalb für Vorleseprogramme ausgeblendet. -->
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-chip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 3.5 12.6 8.4 17.5 10l-4.9 1.6L11 16.5l-1.6-4.9L4.5 10l4.9-1.6L11 3.5Z"/><path d="M18 15l.8 2.2L21 18l-2.2.8L18 21l-.8-2.2L15 18l2.2-.8L18 15Z"/></svg>
+          KI-Assistent: Entwurf liegt bereit
+        </div>
+        <div class="task-card">
+          <div class="task-card__head">
+            <span class="task-card__title">Heute im Hintergrund</span>
+            <span class="task-card__status">läuft</span>
+          </div>
+          <ul class="task-list">
+            <li><span class="task-check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>E-Mails gelesen und vorsortiert</span><span class="task-done">erledigt</span></li>
+            <li><span class="task-check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Rechnungen ausgelesen und abgelegt</span><span class="task-done">erledigt</span></li>
+            <li><span class="task-check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Angebot als Entwurf vorbereitet</span><span class="task-done">erledigt</span></li>
+            <li><span class="task-check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Kundenanfrage beantwortet</span><span class="task-done">erledigt</span></li>
+            <li><span class="task-check"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Termin bestätigt</span><span class="task-done">erledigt</span></li>
+          </ul>
+          <div class="task-card__foot">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>
+            Mehr Zeit für Kunden und Team
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -49,37 +80,253 @@
   <section class="section">
     <div class="container">
       <div class="section-head center">
-        <div class="eyebrow">[[ÜBERZEILE ABSCHNITT]]</div>
-        <h2>[[ÜBERSCHRIFT ABSCHNITT]]</h2>
+        <div class="eyebrow">Kennen Sie das?</div>
+        <h2>Zeitfresser, die jeder Betrieb kennt</h2>
+        <p>Viele kleine Aufgaben kosten jeden Tag Zeit. Einzeln wirken sie harmlos, zusammen bremsen sie Ihr ganzes Team.</p>
+      </div>
+      <div class="pain-grid">
+
+        <div class="pain-item reveal">
+          <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 13.5 6 6.2A1.5 1.5 0 0 1 7.4 5.2h9.2a1.5 1.5 0 0 1 1.4 1l2.5 7.3V18a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 18v-4.5Z"/><path d="M3.5 13.5h4.6l1.4 2.5h5l1.4-2.5h4.6"/></svg></span>
+          <h3>Das Postfach läuft über</h3>
+          <p>Anfragen, Rechnungen und Rückfragen landen durcheinander. Allein das Sortieren kostet jeden Morgen Zeit.</p>
+        </div>
+
+        <div class="pain-item reveal">
+          <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8.5" y="8.5" width="11" height="11" rx="2"/><path d="M15.5 8.5v-2a2 2 0 0 0-2-2h-7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h2"/></svg></span>
+          <h3>Alles wird doppelt getippt</h3>
+          <p>Was im Angebot steht, wird für Rechnung, Buchhaltung und Ablage noch einmal erfasst. Fehler inklusive.</p>
+        </div>
+
+        <div class="pain-item reveal">
+          <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5h10a1.5 1.5 0 0 1 1.5 1.5v5.5A1.5 1.5 0 0 1 14 14H9l-3.5 3v-3H4a1.5 1.5 0 0 1-1.5-1.5V7A1.5 1.5 0 0 1 4 5.5Z"/><path d="M15.5 9H20a1.5 1.5 0 0 1 1.5 1.5V16a1.5 1.5 0 0 1-1.5 1.5h-1.5v3l-3.5-3h-3.5A1.5 1.5 0 0 1 10 16v-2"/></svg></span>
+          <h3>Immer dieselben Fragen</h3>
+          <p>Lieferzeiten, Preise, Unterlagen: Ihr Team beantwortet täglich die gleichen Anfragen am Telefon und per E-Mail.</p>
+        </div>
+
+        <div class="pain-item reveal">
+          <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 7.5a2 2 0 0 1 2-2h3.6l2 2h7.4a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2v-10Z"/><circle cx="11.5" cy="13" r="2.6"/><path d="m13.4 14.9 2.1 2.1"/></svg></span>
+          <h3>Wissen steckt in Köpfen</h3>
+          <p>Wer etwas sucht, fragt die Kollegin oder durchforstet Ordner. Ist sie auf Urlaub, steht die Arbeit still.</p>
+        </div>
+
+        <div class="pain-item reveal">
+          <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.5 14.6A7.5 7.5 0 0 1 9.4 4.5a7.5 7.5 0 1 0 10.1 10.1Z"/></svg></span>
+          <h3>Papierkram nach Feierabend</h3>
+          <p>Angebote, Berichte und Protokolle bleiben tagsüber liegen und werden am Abend nachgeholt.</p>
+        </div>
+
+        <div class="pain-item reveal">
+          <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 3.5 12.6 8.4 17.5 10l-4.9 1.6L11 16.5l-1.6-4.9L4.5 10l4.9-1.6L11 3.5Z"/><path d="M18 15l.8 2.2L21 18l-2.2.8L18 21l-.8-2.2L15 18l2.2-.8L18 15Z"/></svg></span>
+          <h3>KI ja, aber wie?</h3>
+          <p>Alle reden von ChatGPT und Co. Doch welches Werkzeug passt zu Ihrem Betrieb, und was ist dabei erlaubt?</p>
+        </div>
+
+      </div>
+      <p class="pain-bridge reveal">Genau hier setzen wir an: Wir finden die Zeitfresser in Ihrem Alltag und lassen sie von KI erledigen.</p>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head center">
+        <div class="eyebrow">Leistungen</div>
+        <h2>Wie wir Sie entlasten</h2>
+        <p>Von der ersten Analyse bis zur laufenden Betreuung. Sie bekommen alles aus einer Hand und in verständlicher Sprache.</p>
       </div>
       <div class="card-grid">
 
         <article class="card reveal">
           <div class="card__body">
-            <span class="card__tag">[[RUBRIK 1]]</span>
-            <h3>[[ÜBERSCHRIFT KARTE 1]]</h3>
-            <p>[[TEXT KARTE 1, zwei bis drei Sätze]]</p>
-            <a class="card__link" href="/kontakt">Mehr erfahren <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.9-4.9"/><path d="M8 12.5V11M10.5 12.5v-4M13 12.5V10"/></svg></span>
+            <span class="card__tag">Analyse</span>
+            <h3>Arbeitsabläufe durchleuchten</h3>
+            <p>Wir sehen uns an, wie in Ihrem Betrieb gearbeitet wird, und zeigen, wo KI und Automatisierung am meisten Zeit sparen.</p>
+            <a class="card__link" href="/leistungen#analyse">Mehr erfahren <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
         </article>
 
         <article class="card reveal">
           <div class="card__body">
-            <span class="card__tag">[[RUBRIK 2]]</span>
-            <h3>[[ÜBERSCHRIFT KARTE 2]]</h3>
-            <p>[[TEXT KARTE 2, zwei bis drei Sätze]]</p>
-            <a class="card__link" href="/kontakt">Mehr erfahren <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11.5A8 8 0 0 0 6.3 6.3L4 8.5"/><path d="M4 4v4.5h4.5"/><path d="M4 12.5a8 8 0 0 0 13.7 5.2l2.3-2.2"/><path d="M20 20v-4.5h-4.5"/></svg></span>
+            <span class="card__tag">Automatisierung</span>
+            <h3>Routine automatisieren</h3>
+            <p>Daten wandern von selbst zwischen Ihren Programmen. E-Mails, Formulare und Rechnungen werden verarbeitet, ohne dass jemand abtippt.</p>
+            <a class="card__link" href="/leistungen#automatisierung">Mehr erfahren <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
         </article>
 
         <article class="card reveal">
           <div class="card__body">
-            <span class="card__tag">[[RUBRIK 3]]</span>
-            <h3>[[ÜBERSCHRIFT KARTE 3]]</h3>
-            <p>[[TEXT KARTE 3, zwei bis drei Sätze]]</p>
-            <a class="card__link" href="/kontakt">Mehr erfahren <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 4.5h15A1.5 1.5 0 0 1 21 6v10a1.5 1.5 0 0 1-1.5 1.5H11l-4.5 3.5v-3.5h-2A1.5 1.5 0 0 1 3 16V6a1.5 1.5 0 0 1 1.5-1.5Z"/><path d="m12 7.5.9 2.3 2.3.9-2.3.9-.9 2.3-.9-2.3-2.3-.9 2.3-.9.9-2.3Z"/></svg></span>
+            <span class="card__tag">KI-Assistenten</span>
+            <h3>Ein Assistent, der Ihre Unterlagen kennt</h3>
+            <p>Er beantwortet Fragen Ihres Teams, schreibt Entwürfe und fasst lange Dokumente zusammen. Auf Basis Ihres eigenen Wissens.</p>
+            <a class="card__link" href="/leistungen#assistenten">Mehr erfahren <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
           </div>
         </article>
+
+        <article class="card reveal">
+          <div class="card__body">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14.5V12a8 8 0 0 1 16 0v2.5"/><rect x="3" y="13.5" width="4" height="6" rx="1.5"/><rect x="17" y="13.5" width="4" height="6" rx="1.5"/><path d="M19 19.5v.3a2.2 2.2 0 0 1-2.2 2.2h-3.3"/></svg></span>
+            <span class="card__tag">Kundenservice</span>
+            <h3>Schneller antworten</h3>
+            <p>Häufige Anfragen werden sofort beantwortet, auch abends und am Wochenende. Alles andere landet vorbereitet bei Ihrem Team.</p>
+            <a class="card__link" href="/leistungen#kundenservice">Mehr erfahren <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__body">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 9 12 4.5 21.5 9 12 13.5 2.5 9Z"/><path d="M6.5 11v4.6c0 1.4 2.5 2.9 5.5 2.9s5.5-1.5 5.5-2.9V11"/><path d="M21.5 9v5.5"/></svg></span>
+            <span class="card__tag">Schulung</span>
+            <h3>Ihr Team fit für KI</h3>
+            <p>Praxisnahe Workshops an Ihren eigenen Aufgaben: So nutzt Ihr Team KI-Tools sicher, sinnvoll und mit Rücksicht auf den Datenschutz.</p>
+            <a class="card__link" href="/leistungen#schulung">Mehr erfahren <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__body">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5 19 6v5.6c0 4.2-2.9 7.6-7 8.9-4.1-1.3-7-4.7-7-8.9V6l7-2.5Z"/><path d="m8.8 12 2.2 2.2 4.2-4.4"/></svg></span>
+            <span class="card__tag">Begleitung</span>
+            <h3>Betreuung, die bleibt</h3>
+            <p>Wir halten Ihre Lösungen am Laufen, passen sie an neue Abläufe an und zeigen Ihnen, was sich als Nächstes lohnt.</p>
+            <a class="card__link" href="/leistungen#betreuung">Mehr erfahren <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <div class="eyebrow">Aus dem Alltag</div>
+        <h2>Was sich konkret ändert</h2>
+        <p>Drei Beispiele, wie KI typische Aufgaben in kleinen und mittleren Betrieben vereinfacht.</p>
+      </div>
+      <div class="example-grid">
+
+        <article class="example reveal">
+          <h3>Posteingang</h3>
+          <div class="example__row example__row--before">
+            <span class="example__label">Bisher</span>
+            <p>Jemand liest jede E-Mail, entscheidet, wer zuständig ist, und leitet sie weiter.</p>
+          </div>
+          <div class="example__row example__row--after">
+            <span class="example__label">Mit KI</span>
+            <p>E-Mails werden nach Inhalt erkannt, sortiert und mit einer kurzen Zusammenfassung an die richtige Person gegeben.</p>
+          </div>
+        </article>
+
+        <article class="example reveal">
+          <h3>Eingangsrechnungen</h3>
+          <div class="example__row example__row--before">
+            <span class="example__label">Bisher</span>
+            <p>Rechnungen werden ausgedruckt, abgetippt, abgelegt und für die Buchhaltung gesammelt.</p>
+          </div>
+          <div class="example__row example__row--after">
+            <span class="example__label">Mit KI</span>
+            <p>Rechnungen werden ausgelesen, geprüft und vorbereitet. Ihr Team kontrolliert nur noch und bestätigt.</p>
+          </div>
+        </article>
+
+        <article class="example reveal">
+          <h3>Angebote</h3>
+          <div class="example__row example__row--before">
+            <span class="example__label">Bisher</span>
+            <p>Jedes Angebot wird aus alten Dokumenten zusammenkopiert und mühsam angepasst.</p>
+          </div>
+          <div class="example__row example__row--after">
+            <span class="example__label">Mit KI</span>
+            <p>Aus Ihren Preisen und Textbausteinen entsteht ein fertiger Entwurf. Sie prüfen, ergänzen und senden.</p>
+          </div>
+        </article>
+
+      </div>
+      <div class="section-cta">
+        <a href="/beispiele" class="btn btn--outline">Weitere Beispiele ansehen</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head center">
+        <div class="eyebrow">Ablauf</div>
+        <h2>Schritt für Schritt zur Entlastung</h2>
+        <p>Überschaubar, verständlich und ohne großes Risiko. Sie entscheiden nach jedem Schritt, wie es weitergeht.</p>
+      </div>
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step__num">1</span>
+          <h3>Kennenlernen</h3>
+          <p>Sie erzählen uns, wo im Alltag Zeit verloren geht. Wir hören zu und sagen offen, ob und wie wir helfen können.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__num">2</span>
+          <h3>Analyse</h3>
+          <p>Wir sehen uns Ihre Abläufe genauer an und finden die Aufgaben, bei denen KI am meisten bringt.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__num">3</span>
+          <h3>Umsetzung</h3>
+          <p>Wir beginnen mit einer Lösung, die rasch spürbar entlastet, und richten sie in Ihren Programmen ein.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__num">4</span>
+          <h3>Begleitung</h3>
+          <p>Wir schulen Ihr Team, verbessern laufend und bauen aus, sobald sich der erste Schritt bewährt hat.</p>
+        </li>
+      </ol>
+      <div class="section-cta">
+        <a href="/ablauf" class="btn btn--outline">Ablauf im Detail</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <div class="eyebrow">Unsere Grundsätze</div>
+        <h2>KI mit Augenmaß</h2>
+        <p>Nicht jede Neuheit ist für jeden Betrieb sinnvoll. Darauf können Sie sich bei uns verlassen.</p>
+      </div>
+      <div class="principles">
+
+        <div class="principle reveal">
+          <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 18h5M10.5 21h3"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.7.5 1.1 1.3 1.1 2.1v.1h5v-.1c0-.8.4-1.6 1.1-2.1A6 6 0 0 0 12 3Z"/></svg></span>
+          <div>
+            <h3>Verständlich statt kompliziert</h3>
+            <p>Wir erklären ohne Fachchinesisch. Sie wissen jederzeit, was eine Lösung tut und warum.</p>
+          </div>
+        </div>
+
+        <div class="principle reveal">
+          <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5v-3a4 4 0 0 1 8 0v3"/><path d="M12 14.5v2"/></svg></span>
+          <div>
+            <h3>Datenschutz von Anfang an</h3>
+            <p>Wir achten auf die DSGVO und legen mit Ihnen fest, welche Daten eine KI überhaupt sehen darf.</p>
+          </div>
+        </div>
+
+        <div class="principle reveal">
+          <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="8" r="3.8"/><path d="M3.5 20a6.5 6.5 0 0 1 10.6-5"/><path d="m15.5 18 2 2 4-4"/></svg></span>
+          <div>
+            <h3>Der Mensch entscheidet</h3>
+            <p>KI bereitet vor, Ihr Team prüft und gibt frei. Wichtige Entscheidungen bleiben immer in Ihrer Hand.</p>
+          </div>
+        </div>
+
+        <div class="principle reveal">
+          <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5v-8"/><path d="M12 12.5c0-4.1 2.8-6.8 7.5-6.8 0 4.1-2.8 6.8-7.5 6.8Z"/><path d="M12 14.5c0-3.3-2.3-5.5-6-5.5 0 3.3 2.3 5.5 6 5.5Z"/></svg></span>
+          <div>
+            <h3>Klein anfangen, rasch spüren</h3>
+            <p>Wir beginnen mit einer Aufgabe, die spürbar entlastet, und bauen erst aus, wenn es sich bewährt hat.</p>
+          </div>
+        </div>
 
       </div>
     </div>
@@ -89,11 +336,11 @@
     <div class="container">
       <div class="cta-banner reveal">
         <div>
-          <h2>[[ÜBERSCHRIFT KONTAKT-BANNER]]</h2>
-          <p>[[TEXT KONTAKT-BANNER, ein Satz]]</p>
+          <h2>Wo verliert Ihr Betrieb die meiste Zeit?</h2>
+          <p>Erzählen Sie uns davon. Wir zeigen Ihnen, was sich mit KI vereinfachen lässt.</p>
         </div>
         <div class="cta-banner-actions">
-          <a href="/kontakt" class="btn btn--primary">Kontakt aufnehmen</a>
+          <a href="/kontakt" class="btn btn--primary">Anfrage senden</a>
           <a href="tel:[[TELEFON-LINK]]" class="btn btn--ghost">[[TELEFON]]</a>
         </div>
       </div>
@@ -113,15 +360,29 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="/" class="brand">
-          <span class="brand-text">[[NAME]]<span>[[UNTERZEILE]]</span></span>
+          <span class="brand-text">[[NAME]]<span>KI und Automatisierung für KMU</span></span>
         </a>
-        <p>[[KURZBESCHREIBUNG, ein bis zwei Sätze]]</p>
+        <p>Wir nehmen kleinen und mittleren Unternehmen lästige Routinearbeit ab, damit mehr Zeit für das Wesentliche bleibt.</p>
       </div>
       <div class="footer-col">
         <h4>Navigation</h4>
         <ul>
           <li><a href="/">Startseite</a></li>
+          <li><a href="/leistungen">Leistungen</a></li>
+          <li><a href="/beispiele">Beispiele</a></li>
+          <li><a href="/ablauf">Ablauf</a></li>
           <li><a href="/kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Leistungen</h4>
+        <ul>
+          <li><a href="/leistungen#analyse">Analyse der Abläufe</a></li>
+          <li><a href="/leistungen#automatisierung">Automatisierung</a></li>
+          <li><a href="/leistungen#assistenten">KI-Assistenten</a></li>
+          <li><a href="/leistungen#kundenservice">Kundenservice</a></li>
+          <li><a href="/leistungen#schulung">Schulungen</a></li>
+          <li><a href="/leistungen#betreuung">Betreuung</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -162,26 +423,6 @@
           <span class="cookie-category__badge">Immer aktiv</span>
         </div>
       </div>
-
-      <div class="cookie-category">
-        <div class="cookie-category__row">
-          <button type="button" class="cookie-category__disclosure" data-cookie-disclosure aria-expanded="false">
-            <svg class="chevron" width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span>Google Maps</span>
-          </button>
-          <label class="cookie-switch">
-            <input type="checkbox" data-cookie-category="maps">
-            <span class="cookie-switch__track"></span>
-            <span class="sr-only">Google Maps aktivieren</span>
-          </label>
-        </div>
-        <div class="cookie-category__details">
-          <div class="cookie-detail-row"><span>Name</span><span>Google Maps</span></div>
-          <div class="cookie-detail-row"><span>Anbieter</span><span>Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland</span></div>
-          <div class="cookie-detail-row"><span>Zweck</span><span>Zeigt auf der Kontaktseite eine Karte mit unserem Standort. Beim Laden der Karte wird Ihre IP-Adresse an Google übermittelt, und Google kann Cookies setzen.</span></div>
-          <div class="cookie-detail-row"><span>Datenschutzerklärung</span><span><a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener">https://policies.google.com/privacy?hl=de</a></span></div>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -199,7 +440,7 @@
 <!-- /GEMEINSAM:cookie -->
 
 <!-- GEMEINSAM:skript -->
-<script src="/assets/js/main.js?v=2026-11-16"></script>
+<script src="/assets/js/main.js?v=2026-11-16-3"></script>
 <!-- /GEMEINSAM:skript -->
 </body>
 </html>

@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kontakt | [[NAME]]</title>
-<meta name="description" content="[[BESCHREIBUNG DER KONTAKTSEITE, ein Satz mit Adresse und Telefon]]">
+<meta name="description" content="Schreiben Sie uns, wo in Ihrem Betrieb Zeit verloren geht. Wir zeigen Ihnen, was sich mit KI vereinfachen lässt. Telefon [[TELEFON]].">
 <!-- GEMEINSAM:kopf -->
 <link rel="icon" href="data:,">
 <link rel="stylesheet" href="/assets/css/fonts.css">
-<link rel="stylesheet" href="/assets/css/style.css?v=2026-11-16">
+<link rel="stylesheet" href="/assets/css/style.css?v=2026-11-16-3">
 <!-- /GEMEINSAM:kopf -->
 </head>
 <body>
@@ -17,14 +17,17 @@
 <header class="site-header">
   <div class="container">
     <a href="/" class="brand">
-      <span class="brand-text">[[NAME]]<span>[[UNTERZEILE]]</span></span>
+      <span class="brand-text">[[NAME]]<span>KI und Automatisierung für KMU</span></span>
     </a>
     <nav class="main-nav" id="main-nav">
       <ul>
         <li><a href="/">Startseite</a></li>
+        <li><a href="/leistungen">Leistungen</a></li>
+        <li><a href="/beispiele">Beispiele</a></li>
+        <li><a href="/ablauf">Ablauf</a></li>
         <li><a href="/kontakt" class="is-active" aria-current="page">Kontakt</a></li>
       </ul>
-      <a href="/kontakt" class="btn btn--primary">Termin vereinbaren</a>
+      <a href="/kontakt" class="btn btn--primary">Anfrage senden</a>
     </nav>
     <button class="nav-toggle" id="nav-toggle" aria-label="Menü öffnen" aria-expanded="false"><span></span></button>
   </div>
@@ -37,8 +40,8 @@
   <section class="page-hero">
     <div class="container">
       <div class="eyebrow">Kontakt</div>
-      <h1>[[ÜBERSCHRIFT KONTAKT]]</h1>
-      <p>[[EINLEITUNG, höchstens zwei Zeilen]]</p>
+      <h1>Sprechen wir über Ihre Abläufe</h1>
+      <p>Schreiben Sie uns, wo Ihnen im Alltag Zeit verloren geht. Wir melden uns rasch bei Ihnen.</p>
     </div>
   </section>
 
@@ -72,13 +75,18 @@
                   <select id="topic" name="topic">
                     <option value="">Bitte auswählen</option>
                     <option>Allgemeine Anfrage</option>
-                    <option>Terminanfrage</option>
+                    <option>Analyse der Arbeitsabläufe</option>
+                    <option>Automatisierung</option>
+                    <option>KI-Assistenten</option>
+                    <option>Kundenservice mit KI</option>
+                    <option>Schulung und Workshop</option>
+                    <option>Betreuung</option>
                     <option>Sonstiges</option>
                   </select>
                 </div>
                 <div class="form-field full">
                   <label for="message">Ihre Nachricht <span class="req">*</span></label>
-                  <textarea id="message" name="message" required></textarea>
+                  <textarea id="message" name="message" placeholder="Zum Beispiel: Welche Aufgaben kosten Ihr Team am meisten Zeit?" required></textarea>
                   <p class="form-error" id="message-error" hidden>Bitte schreiben Sie uns kurz Ihr Anliegen.</p>
                 </div>
               </div>
@@ -128,18 +136,13 @@
             </div>
           </div>
 
-          <!-- Die Karte lädt erst nach Zustimmung (Schalter „Google Maps“ im Cookie-Fenster oder
-               Knopf „Karte laden“). Deshalb steht ihre Adresse als data-map-src, nie als <iframe src>.
-               Als Ziel die Adresse des Eingangs angeben, damit Besucher hinfinden. -->
-          <div class="map-wrap"
-               data-map-src="https://www.google.com/maps?q=[[ADRESSE FÜR DIE KARTE, URL-kodiert]]&amp;z=17&amp;output=embed"
-               data-map-title="Standort [[NAME]]">
-            <div class="map-placeholder">
-              <strong>Karte von Google Maps</strong>
-              <p>Die Karte wird erst mit Ihrer Zustimmung geladen. Dabei wird Ihre IP-Adresse an Google übermittelt.</p>
-              <button type="button" class="btn btn--primary" data-map-enable>Karte laden</button>
-              <a href="https://www.google.com/maps/search/?api=1&amp;query=[[ADRESSE FÜR DIE KARTE, URL-kodiert]]" target="_blank" rel="noopener">In Google Maps öffnen</a>
-            </div>
+          <div class="next-steps">
+            <h3>So geht es weiter</h3>
+            <ol>
+              <li>Wir lesen Ihre Nachricht persönlich und melden uns bei Ihnen.</li>
+              <li>Im ersten Gespräch klären wir, wo Ihnen KI am meisten Arbeit abnimmt.</li>
+              <li>Danach erhalten Sie einen klaren Vorschlag und entscheiden in Ruhe.</li>
+            </ol>
           </div>
         </div>
 
@@ -160,15 +163,29 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="/" class="brand">
-          <span class="brand-text">[[NAME]]<span>[[UNTERZEILE]]</span></span>
+          <span class="brand-text">[[NAME]]<span>KI und Automatisierung für KMU</span></span>
         </a>
-        <p>[[KURZBESCHREIBUNG, ein bis zwei Sätze]]</p>
+        <p>Wir nehmen kleinen und mittleren Unternehmen lästige Routinearbeit ab, damit mehr Zeit für das Wesentliche bleibt.</p>
       </div>
       <div class="footer-col">
         <h4>Navigation</h4>
         <ul>
           <li><a href="/">Startseite</a></li>
+          <li><a href="/leistungen">Leistungen</a></li>
+          <li><a href="/beispiele">Beispiele</a></li>
+          <li><a href="/ablauf">Ablauf</a></li>
           <li><a href="/kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Leistungen</h4>
+        <ul>
+          <li><a href="/leistungen#analyse">Analyse der Abläufe</a></li>
+          <li><a href="/leistungen#automatisierung">Automatisierung</a></li>
+          <li><a href="/leistungen#assistenten">KI-Assistenten</a></li>
+          <li><a href="/leistungen#kundenservice">Kundenservice</a></li>
+          <li><a href="/leistungen#schulung">Schulungen</a></li>
+          <li><a href="/leistungen#betreuung">Betreuung</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -209,26 +226,6 @@
           <span class="cookie-category__badge">Immer aktiv</span>
         </div>
       </div>
-
-      <div class="cookie-category">
-        <div class="cookie-category__row">
-          <button type="button" class="cookie-category__disclosure" data-cookie-disclosure aria-expanded="false">
-            <svg class="chevron" width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span>Google Maps</span>
-          </button>
-          <label class="cookie-switch">
-            <input type="checkbox" data-cookie-category="maps">
-            <span class="cookie-switch__track"></span>
-            <span class="sr-only">Google Maps aktivieren</span>
-          </label>
-        </div>
-        <div class="cookie-category__details">
-          <div class="cookie-detail-row"><span>Name</span><span>Google Maps</span></div>
-          <div class="cookie-detail-row"><span>Anbieter</span><span>Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland</span></div>
-          <div class="cookie-detail-row"><span>Zweck</span><span>Zeigt auf der Kontaktseite eine Karte mit unserem Standort. Beim Laden der Karte wird Ihre IP-Adresse an Google übermittelt, und Google kann Cookies setzen.</span></div>
-          <div class="cookie-detail-row"><span>Datenschutzerklärung</span><span><a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener">https://policies.google.com/privacy?hl=de</a></span></div>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -246,7 +243,7 @@
 <!-- /GEMEINSAM:cookie -->
 
 <!-- GEMEINSAM:skript -->
-<script src="/assets/js/main.js?v=2026-11-16"></script>
+<script src="/assets/js/main.js?v=2026-11-16-3"></script>
 <!-- /GEMEINSAM:skript -->
 </body>
 </html>
