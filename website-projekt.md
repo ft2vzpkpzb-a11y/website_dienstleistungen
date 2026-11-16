@@ -13,9 +13,9 @@ was gilt. Nichts aus dieser Datei wird hochgeladen. Keine Passwörter eintragen.
 - Wer soll angesprochen werden: kleine und mittlere Unternehmen (KMU), vor allem
   Inhaber, Geschäftsführung und Büroleitung ohne eigene Technikabteilung
 - Adresse (Domain): noch offen
-- Vorbild für den Stil: drweiser.at (ruhig, viel Luft, eine Akzentfarbe)
-- Ansprache: Besucher mit „Sie“, das Unternehmen spricht als „wir“ (Annahme,
-  noch nicht bestätigt)
+- Vorbild für den Stil: drweiser.at (ruhig, viel Luft, eine Akzentfarbe);
+  gewählt: Dunkelblau mit Serifenschrift in den Überschriften
+- Ansprache: Besucher mit „Sie“, das Unternehmen spricht als „wir“ (bestätigt)
 
 ## Seiten
 
@@ -33,6 +33,13 @@ was gilt. Nichts aus dieser Datei wird hochgeladen. Keine Passwörter eintragen.
 
 Neueste zuerst, mit Datum. Wünsche möglichst wörtlich festhalten.
 
+- 16.11.2026: Seite „Über uns“ vorbereiten, mit Platzhaltern für Foto, Werdegang
+  und Beweggründe (Text und Foto kommen vom Auftraggeber).
+- 16.11.2026: Ansprache bleibt „wir“ (bestätigt).
+- 16.11.2026: Gestaltung Variante B „Blau, klassisch“: Dunkelblau als
+  Akzentfarbe (#1E4B8F), kühler heller Hintergrund, Überschriften mit Serifen
+  (Playfair Display) wie bei drweiser.at. Abgewählt: A Petrol modern,
+  C Terrakotta warm (Dateien in vorschau/varianten, nicht im Projekt).
 - 16.11.2026: Auftrag: „eine Website, die Dienstleistungen anbietet. Die
   Zielgruppe dieser Dienstleistungen sollen vor allem kleine und mittlere
   Unternehmen sein. Und primär soll es darum gehen, Unternehmen dabei zu helfen,
@@ -82,13 +89,13 @@ und .htaccess entfernt.
 ## Offene Punkte
 
 - [ ] Name des Unternehmens (Platzhalter [[NAME]])
-- [ ] Gestaltung: Farbe und Schrift wählen (Varianten gezeigt)
+- [x] Gestaltung gewählt: Variante B, Blau klassisch (16.11.2026)
 - [ ] Kontaktdaten: Adresse, Telefon, E-Mail
 - [ ] Domain und Hosting
 - [ ] Texte der Leistungen prüfen und freigeben (von Claude entworfen)
-- [ ] Ansprache „wir“ bestätigen (oder „ich“, falls Einzelunternehmen)
+- [x] Ansprache „wir“ bestätigt (16.11.2026)
 - [ ] Texte für Impressum und Datenschutzerklärung vom Auftraggeber
 - [ ] Cookie-Fenster: Die Website setzt keine Cookies und lädt nichts von
       Dritten. Klären, ob das Fenster bleiben soll und mit welchem Wortlaut.
-- [ ] Eventuell Seite „Über uns“ mit Foto und Werdegang (Text und Foto nötig)
+- [ ] Seite „Über uns“: Foto, Werdegang und Beweggründe vom Auftraggeber
 - [ ] Platzhalter `[[…]]` in allen Seiten ersetzen
