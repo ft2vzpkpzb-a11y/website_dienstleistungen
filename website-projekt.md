@@ -35,6 +35,12 @@ was gilt. Nichts aus dieser Datei wird hochgeladen. Keine Passwörter eintragen.
 
 Neueste zuerst, mit Datum. Wünsche möglichst wörtlich festhalten.
 
+- 16.11.2026: Feinschliff mit dem Skill „unslop“ als Vergleich gezeigt und abgelehnt:
+  „Nein, so lassen“. Die Gestaltung bleibt wie sie ist. Nicht wieder vorschlagen:
+  offene Kästchen bei den Zeitfressern, normale Schreibweise statt Großbuchstaben
+  bei Überzeilen und Etiketten, Wegfall der Symbol-Kacheln, Knöpfe mit Ecken statt
+  rund, Abschnittsköpfe links statt mittig, Wegfall des Chips „KI-Assistent: Entwurf
+  liegt bereit“, Hauptüberschrift ohne Punkte.
 - 16.11.2026: Seite „Über uns“ vorbereiten, mit Platzhaltern für Foto, Werdegang
   und Beweggründe (Text und Foto kommen vom Auftraggeber).
 - 16.11.2026: Ansprache bleibt „wir“ (bestätigt).
