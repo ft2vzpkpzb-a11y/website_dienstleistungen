@@ -673,6 +673,25 @@ h3 { font-size: 1.22rem; }
 .faq__answer { padding: 0 50px 24px 0; color: var(--color-ink-soft); }
 .faq__answer p:last-child { margin-bottom: 0; }
 
+/* ---------- Über uns ---------- */
+.about-grid { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: 64px; align-items: center; }
+/* Das Foto wird nur zugeschnitten (object-fit: cover), nie verzerrt oder bearbeitet */
+.about-photo { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius-lg); }
+/* Platzhalter, solange kein Foto da ist */
+.photo-placeholder {
+  aspect-ratio: 4 / 5;
+  border-radius: var(--radius-lg);
+  border: 2px dashed var(--color-line-strong);
+  background: var(--color-paper-alt);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+  text-align: center; padding: 24px;
+  color: var(--color-ink-soft); font-size: 0.92rem;
+}
+.photo-placeholder svg { width: 40px; height: 40px; color: var(--color-primary); }
+.photo-placeholder strong { color: var(--color-ink); }
+.about-text .lede { color: var(--color-primary); font-weight: 600; font-size: 1.1rem; }
+.about-text p { color: var(--color-ink-soft); }
+
 /* ---------- Kontaktseite: was nach der Anfrage passiert ---------- */
 .next-steps { margin-top: 36px; padding: 28px; border-radius: var(--radius-lg); background: var(--color-paper-alt); }
 .next-steps h3 { margin-bottom: 16px; }
@@ -869,6 +888,12 @@ html.nav-open .back-to-top { opacity: 0; visibility: hidden; }
 .reveal.is-visible { opacity: 1; transform: translateY(0); }
 
 /* ---------- Schmale Bildschirme ---------- */
+/* Laptop und Tablet quer: Menü etwas enger, damit alle Punkte in eine Zeile passen */
+@media (min-width: 861px) and (max-width: 1180px) {
+  .main-nav { gap: 24px; }
+  .main-nav ul { gap: 22px; }
+}
+
 @media (max-width: 1024px) {
   .hero-grid { grid-template-columns: minmax(0, 1fr); gap: 56px; }
   .hero-visual { max-width: 560px; }
@@ -910,6 +935,8 @@ html.nav-open .back-to-top { opacity: 0; visibility: hidden; }
   .nav-scrim.is-open { display: block; }
 
   .split { grid-template-columns: 1fr; gap: 40px; }
+  .about-grid { grid-template-columns: minmax(0, 1fr); gap: 36px; }
+  .photo-placeholder, .about-photo { max-width: 420px; }
   .cta-banner { flex-direction: column; align-items: flex-start; }
   .form-grid { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; align-items: flex-start; }
