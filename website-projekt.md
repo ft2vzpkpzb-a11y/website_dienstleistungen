@@ -16,6 +16,8 @@ was gilt. Nichts aus dieser Datei wird hochgeladen. Keine Passwörter eintragen.
 - Vorbild für den Stil: drweiser.at (ruhig, viel Luft, eine Akzentfarbe);
   gewählt: Dunkelblau mit Serifenschrift in den Überschriften
 - Ansprache: Besucher mit „Sie“, das Unternehmen spricht als „wir“ (bestätigt)
+- Arbeitsweise des Auftraggebers (abweichend vom Skill): Mac statt Windows,
+  benutzt das Terminal (npm). Anleitungen deshalb für den Mac schreiben.
 
 ## Seiten
 
@@ -85,10 +87,14 @@ und .htaccess entfernt.
 - Zugangsdatei `config.php`: liegt nur auf dem Server im Ordner `api`
 - Zuletzt hochgeladener Stand: noch nichts
 - Frühere Adressen, die weitergeleitet werden: keine (neue Website)
-- Vorschau für den Laptop des Auftraggebers: `python3 vorschau_zip.py` baut
-  `vorschau/website-vorschau.zip`. Entpacken, dann Doppelklick auf
-  „Website ansehen“. Nach Änderungen neu bauen und wieder schicken.
-  (Er hatte vermutet, es fehle eine JSON-Datei; die Website braucht keine.)
+- Vorschau am eigenen Computer: Der Auftraggeber arbeitet an einem Mac, lädt
+  den Stand des Zweigs als ZIP von GitHub herunter und startet im Terminal
+  `npm start` (dann im Browser http://127.0.0.1:4173). Dafür gibt es
+  `package.json` (ohne Pakete) und `werkzeuge/vorschau.js` (Kopie des
+  Vorschauprogramms aus dem Skill website-bauen). Nichts davon wird hochgeladen.
+- Vorschau ohne Terminal (zum Weitergeben): `python3 werkzeuge/vorschau_zip.py`
+  baut `vorschau/website-vorschau.zip`; entpacken, Doppelklick auf
+  „Website ansehen“.
 
 ## Offene Punkte
 

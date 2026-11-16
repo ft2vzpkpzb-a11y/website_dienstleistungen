@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Baut eine Vorschau der Website, die sich am eigenen Computer per Doppelklick öffnen lässt.
 
-Aufruf (im Projektordner):  python3 vorschau_zip.py
+Aufruf (im Projektordner):  python3 werkzeuge/vorschau_zip.py
 
 Ergebnis: vorschau/website-vorschau.zip (wird nie hochgeladen und nicht gespeichert).
 
@@ -23,7 +23,7 @@ import tempfile
 import zipfile
 from pathlib import Path
 
-PROJEKT = Path(__file__).resolve().parent
+PROJEKT = Path(__file__).resolve().parent.parent
 QUELLE = PROJEKT / 'public'
 ZIEL = PROJEKT / 'vorschau' / 'website-vorschau.zip'
 WEGLASSEN = {'api', '.htaccess', '.user.ini', 'robots.txt', 'sitemap.xml', '404.html'}
@@ -31,10 +31,10 @@ WEGLASSEN = {'api', '.htaccess', '.user.ini', 'robots.txt', 'sitemap.xml', '404.
 ANLEITUNG = """So öffnen Sie die Vorschau der Website
 ==========================================
 
-1. Die ZIP-Datei mit der rechten Maustaste anklicken und
-   „Alle extrahieren …“ wählen, dann „Extrahieren“.
+1. Die ZIP-Datei entpacken: am Mac doppelt anklicken, unter Windows mit
+   der rechten Maustaste „Alle extrahieren …“ wählen, dann „Extrahieren“.
 2. Im entpackten Ordner die Datei „Website ansehen“ doppelt anklicken.
-   Die Website öffnet sich im Browser (am besten Edge oder Chrome).
+   Die Website öffnet sich im Browser (am besten Safari, Chrome oder Edge).
 3. Von dort aus lässt sich durch alle Seiten klicken, auch am Handy-Format
    (Browserfenster schmal ziehen).
 
